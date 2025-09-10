@@ -1,4 +1,4 @@
-package com.mytests.spring.springclienttest.clients1;
+package com.mytests.spring.springclienttest.test12clients;
 
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.service.annotation.GetExchange;

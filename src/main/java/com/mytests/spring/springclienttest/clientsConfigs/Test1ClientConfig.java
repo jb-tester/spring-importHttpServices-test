@@ -1,6 +1,6 @@
 package com.mytests.spring.springclienttest.clientsConfigs;
 
-import com.mytests.spring.springclienttest.clients1.Test1Client;
+import com.mytests.spring.springclienttest.test12clients.Test1Client;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.service.registry.ImportHttpServices;
 

@@ -1,6 +1,6 @@
 package com.mytests.spring.springclienttest.clientsConfigs;
 
-import com.mytests.spring.springclienttest.clients1.Test2Client;
+import com.mytests.spring.springclienttest.test12clients.Test2Client;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestClient;

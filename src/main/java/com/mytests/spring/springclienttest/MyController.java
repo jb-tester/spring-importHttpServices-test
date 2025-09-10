@@ -28,6 +28,24 @@ public class MyController {
     public String test32() {
         return "test3/test32 mapping";
     }
+    @GetMapping("/test3/test35")
+    public String test35_3() {
+        return "test3/test35 mapping";
+    }
+
+    @GetMapping("/test5/test51")
+    public String test51() {
+        return "test5/test51 mapping";
+    }
+    @GetMapping("/test5/test52")
+    public String test52() {
+        return "test5/test52 mapping";
+    }
+    @GetMapping("/test5/test35")
+    public String test35_5() {
+        return "test5/test35 mapping";
+    }
+
     @GetMapping("/test4/test41")
     public String test41() {
         return "test4/test41 mapping";
