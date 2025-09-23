@@ -10,3 +10,4 @@
   https://youtrack.jetbrains.com/issue/IDEA-378798/Cannot-generate-HTTP-Client-request-for-declarative-client-if-full-URL-is-specified
 - false-positive error for HttpServiceProxyRegistry autowiring (see SpringClientTestApplication)
   https://youtrack.jetbrains.com/issue/IDEA-379092/Spring-error-on-HttpServiceProxyRegistry-bean-autowiring
+- proper Structure for HttpExchange interfaces https://youtrack.jetbrains.com/issue/IDEA-379756/Spring-Structure-we-could-show-endpoints-in-the-HttpExchange-interfaces-Structure
