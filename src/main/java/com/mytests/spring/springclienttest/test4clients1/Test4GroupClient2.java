@@ -1,4 +1,4 @@
-package com.mytests.spring.springclienttest.test4clients;
+package com.mytests.spring.springclienttest.test4clients1;
 
 
 import org.springframework.web.service.annotation.GetExchange;

@@ -54,6 +54,9 @@ public class MyController {
     public String test42() {
         return "test4/test42 mapping";
     }
-
+    @GetMapping("/test4/test43")
+    public String test43() {
+        return "test4/test43 mapping";
+    }
 
 }
