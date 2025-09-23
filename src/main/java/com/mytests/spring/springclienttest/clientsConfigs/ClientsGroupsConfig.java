@@ -15,8 +15,8 @@ import org.springframework.web.service.registry.ImportHttpServices;
 @Configuration
 @ImportHttpServices(group = "test3", types = {Test3GroupClient1.class, Test3GroupClient2.class, Test3Test5Client.class})
 @ImportHttpServices(group = "test5", types = {Test5GroupClient1.class, Test5GroupClient2.class, Test3Test5Client.class})
-//@ImportHttpServices(group = "test4group", basePackages = {"com.mytests.spring.springclienttest.test4clients1","com.mytests.spring.springclienttest.test4clients2"})
-@ImportHttpServices(group = "test4group", basePackageClasses = {Test41.class, Test42.class})
+@ImportHttpServices(group = "test4group", basePackages = {"com.mytests.spring.springclienttest.test4clients1","com.mytests.spring.springclienttest.test4clients2"})
+//@ImportHttpServices(group = "test4group", basePackageClasses = {Test41.class, Test42.class})
 public class ClientsGroupsConfig {
 
 	@Bean
