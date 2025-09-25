@@ -10,6 +10,10 @@ import com.mytests.spring.springclienttest.test4clients1.Test4GroupClient2;
 import com.mytests.spring.springclienttest.test4clients2.Test4GroupClient3;
 import com.mytests.spring.springclienttest.test5clients.Test5GroupClient1;
 import com.mytests.spring.springclienttest.test5clients.Test5GroupClient2;
+import com.mytests.spring.springclienttest.test6clients.Test6GroupClient1;
+import com.mytests.spring.springclienttest.test6clients.Test6GroupClient2;
+import com.mytests.spring.springclienttest.test7clients.Test7GroupClient1;
+import com.mytests.spring.springclienttest.test7clients.Test7GroupClient2;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -27,6 +31,8 @@ public class SpringClientTestApplication {
                              Test3GroupClient1 test3GroupClient1 , Test3GroupClient2 test3GroupClient2,
                              Test4GroupClient1 test4GroupClient1 , Test4GroupClient2 test4GroupClient2, Test4GroupClient3 test4GroupClient3,
                              Test5GroupClient1 test5GroupClient1 , Test5GroupClient2 test5GroupClient2,
+                             Test6GroupClient1 test6GroupClient1 , Test6GroupClient2 test6GroupClient2,
+                             Test7GroupClient1 test7GroupClient1 , Test7GroupClient2 test7GroupClient2,
                              HttpServiceProxyRegistry registry
                              ) {
         return args -> {
@@ -63,6 +69,18 @@ public class SpringClientTestApplication {
             String test3test5_5 = registry.getClient("test5", Test3Test5Client.class).test35();
             System.out.println("**********************************");
             System.out.println(test3test5_5);
+            String test61 = test6GroupClient1.test61();
+            System.out.println("**********************************");
+            System.out.println(test61);
+            String test62 = test6GroupClient2.test62();
+            System.out.println("**********************************");
+            System.out.println(test62);
+            String test71 = test7GroupClient1.test71();
+            System.out.println("**********************************");
+            System.out.println(test71);
+            String test72 = test7GroupClient2.test72();
+            System.out.println("**********************************");
+            System.out.println(test72);
             System.out.println("**********************************");
 
         };

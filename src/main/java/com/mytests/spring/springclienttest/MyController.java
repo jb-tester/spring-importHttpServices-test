@@ -59,4 +59,21 @@ public class MyController {
         return "test4/test43 mapping";
     }
 
+    @GetMapping("/test6/test61")
+    public String test61() {
+        return "test6/test61 mapping";
+    }
+    @GetMapping("/test6/test62")
+    public String test62() {
+        return "test6/test62 mapping";
+    }
+
+    @GetMapping("/test7/test71")
+    public String test71() {
+        return "test7/test71 mapping";
+    }
+    @GetMapping("/test7/test72")
+    public String test72() {
+        return "test7/test72 mapping";
+    }
 }
